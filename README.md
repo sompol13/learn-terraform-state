@@ -28,6 +28,8 @@ The `terraform refresh` command updates the state file when physical resources c
 
 Terraform automatically performs a refresh during the plan, apply, and destroy operations. All of these commands will reconcile state by default, and have the potential to modify your state file.
 
+<img width="1603" alt="aws" src="https://user-images.githubusercontent.com/33342822/150648933-4845418b-937d-4cd5-93df-596d8306d528.png">
+
 ### NOTE
 - .terraform folder is created after `terraform init`
 - terraform.tfstate file is created after `terraform apply`
